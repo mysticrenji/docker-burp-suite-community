@@ -16,8 +16,6 @@ RUN apt-get update && apt-get install -y \
 RUN addgroup --system burp && \
   adduser --system --ingroup burp burp
 
-RUN mkdir -p .java/.userPrefs
-
 USER burp
 WORKDIR $HOME
 
