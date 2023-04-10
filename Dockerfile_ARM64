@@ -1,5 +1,5 @@
 FROM arm64v8/openjdk
-LABEL maintainer="Hex <hex@cowboy.dev>"
+LABEL maintainer="mysticrenji@gmail.com"
 
 ENV HOME /home/burp
 
