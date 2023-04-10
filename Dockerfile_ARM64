@@ -1,4 +1,4 @@
-FROM openjdk:21-slim-bullseye
+FROM arm64v8/openjdk
 LABEL maintainer="Hex <hex@cowboy.dev>"
 
 ENV HOME /home/burp
